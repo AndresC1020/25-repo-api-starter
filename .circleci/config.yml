@@ -30,7 +30,7 @@ jobs:
           command: |
             export RAILWAY_TOKEN="$dfee672e-e61a-4de4-93c9-90f8fefcc51a"
             cd bankchurn-api
-            railway up --service="melodious-encouragement" --yes --detach
+            railway up --service="melodious-encouragement" --detach
           no_output_timeout: 20m
 
 
